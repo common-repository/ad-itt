@@ -1,0 +1,30 @@
+#top_aditt.relative {
+	position: relative;
+	z-index: 10000;
+}
+#top_aditt, #left_aditt, #right_aditt {
+	position: absolute;
+	z-index: 10000;
+}
+#close_top_aditt_img {
+	position: absolute;
+	bottom: 25px;
+	right: 0;
+}
+#left_aditt.fixed, #right_aditt.fixed, #left_aditt.absolute, #right_aditt.absolute {
+	display: block;
+	position: fixed;
+	top: 0;
+}
+#left_aditt.absolute, #right_aditt.absolute {
+	position: absolute;
+}
+#top_aditt img {
+	width: 100%;
+}
+#left_aditt img, #right_aditt img {
+	width: 221px;
+}
+#bottom_aditt img {
+	width: 100%;
+}
